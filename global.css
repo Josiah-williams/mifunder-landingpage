@@ -1,0 +1,46 @@
+body {
+  margin: 0 auto;
+  line-height: normal;
+}
+@font-face {
+  font-family: 'Ceoruse';
+  src: url('Ceoruse.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  /* fonts */
+  --body-16-medium: Poppins;
+  --heading-h1: Ceoruse;
+
+  /* font sizes */
+  --font-size-170xl: 189px;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --body-16-medium-size: 16px;
+  --heading-h1-size: 38px;
+  --font-size-29xl: 48px;
+  --font-size-5xl-8: 24.8px;
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --neutral-white: #fff;
+  --color-silver: #afb6bf;
+  --neutral-off-black-1: #262626;
+  --secondary-deep-blue: #0a001c;
+  --color-lightsteelblue: #b5bfcd;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-11xl: 30px;
+  --gap-3xs: 10px;
+  --gap-sm: 14px;
+
+  /* Border radiuses */
+  --br-281xl: 300px;
+  --br-11xl: 30px;
+  --br-7xs: 6px;
+  --br-31xl: 50px;
+}
