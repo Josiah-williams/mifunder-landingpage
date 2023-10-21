@@ -434,7 +434,7 @@ a{
 }
 @keyframes lower-price-larger {
   from {
-    transform: translate(-27%);
+    transform: translate(-96%);
   }
   to{
     transform: translate(100%);
@@ -459,7 +459,7 @@ a{
   align-items: flex-start;
   gap: 54px;
   width:100%;
-   animation: lower-price-larger 10s linear infinite;
+   animation: lower-price-larger 30s linear infinite;
   font-size: var(--font-size-xl);
 }
 .ridiscord-line-icon {
