@@ -104,6 +104,14 @@ a {
 
   }
 }
+@media only screen and (max-width:400px){
+  .why-us-why{
+    font-size: 28px;
+    width: 60%;
+    left: 73px;
+    line-height: 45px;
+  }
+}
 .lock-up{
   position:absolute;
   top: 1239px;
@@ -120,8 +128,9 @@ a {
 }
 @media(max-width:400px){
   .lock-up{
-    left: 26px;
+   left: 38px;
     font-size: 27px;
+    top: 1141px; 
   }
 }
 /* .vector-icon {
@@ -218,8 +227,9 @@ a {
 }
 @media only screen and (max-width:400px){
   .step-into-the{
-    width:100%;
-    font-size:30px
+    width: 97%;
+    font-size: 36px;
+    line-height: 44px;
   }
 }
 .supporting-text {
@@ -262,8 +272,14 @@ a {
 }
 @media only screen and (max-width:400px){
   .supporting-text1{
-    left:100px
+    left:120px
   }
+  .supporting-text{
+    top: 344px;
+    left: 23px;
+    font-size: 17px;
+    width: 88%;
+}
   }
 .text {
   top: 144px;
@@ -306,7 +322,7 @@ a {
   }
   100% {
     background-color: #2ba805;
-    box-shadow: 0 0 3px #2ba805;
+    /* box-shadow: 0 0 3px #2ba805; */
   }
 }
 .join-our-waiting {
@@ -343,7 +359,7 @@ a {
 }
 @media only screen and (max-width:400px){
   .icon-container > img{
-    left:30px
+    left:50px
   }
 }
 .button {
@@ -363,18 +379,24 @@ a {
 }
 @media(max-width:400px){
   .button{
-    left:53px
+    left: 76px;
+    top: 457px; 
   }
 }
 video{position: absolute;
       top: 550px;
-    left: -70px;
+    left: 450px;
 }
 @media(max-width:767px){
   video{
     top: 569px;
     margin-left: 81px;
     width: 93%;
+  }
+}
+@media only screen and (max-width:400px){
+  video{
+    left:-69px
   }
 }
 a{
@@ -669,7 +691,7 @@ a{
 }
 @media only screen and (max-width:400px){
   .card-container{
-    margin-left:12px
+    margin-left:30px
   }
 }
 .supporting-text4,
@@ -734,6 +756,11 @@ a{
     top: 3786px;
   }
 }
+@media only screen and (max-width:400px){
+  .get-up-to, .off{
+    font-size:30px;
+  }
+}
 .get-up-to {
   top: 2546px;
     left: calc(50% + 1px);
@@ -746,7 +773,8 @@ a{
 }
 @media only screen and (max-width:400px){
   .get-up-to{
-    left:50px
+   left: 107px;
+    font-size: 26px; 
   }
 }
 .supporting-text6 {
@@ -1135,12 +1163,12 @@ input[type=submit] {
 }
 @media only screen and (max-width:400px){
   input[type=submit]{
-    margin-left:10px
+    margin-left:27px
   }
 }
 p{
-    width: 80%;
-    font-size: 13px;
+    width: 96%;
+    font-size: 16px;
     margin-right: auto;
     margin-left: auto;
     color:black;
@@ -1155,7 +1183,7 @@ label{
 }
 
 .form-container {
-  border-radius: 5px;
+  border-radius: 29px;
   background-color: #f2f2f2;
   padding: 20px;
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.40) 100%), linear-gradient(153deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%);
