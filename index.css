@@ -40,7 +40,7 @@ a {
 @media(max-width:767px){
   .background-icon{
     height:2415px; 
-    top:928px
+    top:984px
   }
 }
 .hero-background-icon {
@@ -50,7 +50,7 @@ a {
 }
 @media(max-width:767px){
   .hero-background-icon{
-    height: 931px;
+    height: 986px;
   }
 }
 .simple-iconsx {
@@ -99,7 +99,7 @@ a {
   .why-us-why{
     width: 80%;
     left: 47px;
-    top: 999px;
+    top: 1041px;
     font-size: 42px;
 
   }
@@ -112,10 +112,16 @@ a {
 }
 @media(max-width:767px){
   .lock-up{
-    top: 1146px;
+    top: 1184px;
     left: 29px;
     width: 100%;
     font-size: 30px;
+  }
+}
+@media(max-width:400px){
+  .lock-up{
+    left: 26px;
+    font-size: 27px;
   }
 }
 /* .vector-icon {
@@ -210,6 +216,12 @@ a {
     left: 0px;
   }
 }
+@media only screen and (max-width:400px){
+  .step-into-the{
+    width:100%;
+    font-size:30px
+  }
+}
 .supporting-text {
   top: 334px;
   left: calc(50% - 208px);
@@ -243,11 +255,16 @@ a {
 }
 @media(max-width:767px){
   .supporting-text1{
-    top: 826px;
+    top: 880px;
     font-size: 18px;
     left: 139px;
   }
 }
+@media only screen and (max-width:400px){
+  .supporting-text1{
+    left:100px
+  }
+  }
 .text {
   top: 144px;
   left: calc(50% - 100px);
@@ -321,7 +338,12 @@ a {
     position: relative;
     left: 54px;
     margin-left: 18px;
-    top: 870px;
+    top: 930px;
+  }
+}
+@media only screen and (max-width:400px){
+  .icon-container > img{
+    left:30px
   }
 }
 .button {
@@ -339,13 +361,18 @@ a {
     top: 532px;
   }
 }
+@media(max-width:400px){
+  .button{
+    left:53px
+  }
+}
 video{position: absolute;
       top: 550px;
     left: -70px;
 }
 @media(max-width:767px){
   video{
-    top: 528px;
+    top: 569px;
     margin-left: 81px;
     width: 93%;
   }
@@ -440,6 +467,12 @@ a{
     /* margin-left: 71px; */
     margin-top:154px;
     position:unset
+  }
+}
+@media only screen and (max-width:400px){
+  .unlock-early-access{
+    width:100%;
+    font-size:32px;
   }
 }
 .john,
@@ -634,6 +667,11 @@ a{
       margin-left:42px 
   }
 }
+@media only screen and (max-width:400px){
+  .card-container{
+    margin-left:12px
+  }
+}
 .supporting-text4,
 .supporting-text5 {
   /* position: absolute; */
@@ -706,6 +744,11 @@ a{
     left: 83px;
   }
 }
+@media only screen and (max-width:400px){
+  .get-up-to{
+    left:50px
+  }
+}
 .supporting-text6 {
   position: absolute;
   top: 2628px;
@@ -764,6 +807,12 @@ a{
     gap: 21px;
   }
 }
+@media only screen and (max-width:400px){
+  .frame-parent{
+    gap: 18px;
+    left: 548px;
+  }
+}
 .about-mifunder {
   position: absolute;
   top: 61.35px;
@@ -803,9 +852,19 @@ a{
 }
 @media(max-width:767px){
   .welcome-to-traders-container{
-    width:27%;
-    margin-left:96px;
+   width: 28%;
+    margin-left: 87px;
+    font-size: 15px;
+    top:  244px;
 
+  }
+}
+@media only screen and (max-width:400px){
+  .welcome-to-traders-container{
+    width: 24%;
+    margin-left: 116px;
+    /* margin-top: -43px; */
+    font-size: 13px;
   }
 }
 .mifunder1 {
@@ -982,6 +1041,15 @@ a{
   top: -185px;
 }
 }
+@media only screen and (max-width:400px){
+  .div2,
+  .div3,
+  .div4,
+  .div5{
+    left: -49px;
+    font-size: 159px;
+  }
+}
 .div3 {
   text-shadow: 0 26.92708396911621px 35.01px rgba(153, 0, 153, 0.2),
     0 14.895833015441895px 11.46px rgba(77, 0, 66, 0.5);
@@ -1065,6 +1133,11 @@ input[type=submit] {
     margin-left:39px
   }
 }
+@media only screen and (max-width:400px){
+  input[type=submit]{
+    margin-left:10px
+  }
+}
 p{
     width: 80%;
     font-size: 13px;
@@ -1100,4 +1173,9 @@ label{
   margin-left: 30px;
   height:415px
 }
+}
+@media only screen and (max-width:400px){
+  .form-container{
+    margin-left:22px;
+  }
 }
