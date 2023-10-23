@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   line-height: normal;
+  font-family: 'Poppins', sans-serif;
 }
 @font-face {
   font-family: 'Ceoruse';
